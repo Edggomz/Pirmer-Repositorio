@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Resalta un texto dentro de un párrafo o contenido para indicar que es importante o ha sido marcado. -->
+    <div>
+        <p>Este es un texto <mark>resaltado</mark> en el párrafo.</p>
+
+    </div>
+    <!-- Muestra el resultado de una acción, como la salida de un formulario o un cálculo. -->
+    <div>
+        <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+            <input type="number" id="a"> +
+            <input type="number" id="b">
+            = <output name="result" for="a b">0</output>
+          </form>
+          
+    </div>
+<!--  Permite crear una sección plegable con contenido adicional, como un "acordeón". -->
+    <div>
+        <details>
+            <summary>Ver detalles</summary>
+            <p>Información extra al hacer clic.</p>
+          </details>
+    </div>
+    <!-- Permite crear una sección plegable con contenido adicional, como un "acordeón". -->
+    <div>
+        <details>
+            <summary>Más información</summary>
+            <p>Este es el contenido adicional.</p>
+          </details>
+          
+    </div>
+    <!--  Ayuda a aislar partes de texto con una dirección específica, útil cuando se manejan idiomas de izquierda a derecha (LTR) y derecha a izquierda (RTL) en la misma página. -->
+    <div>
+        <p>Mi nombre es <bdi>علي</bdi> y soy programador.</p>
+    </div>
+    
+</body>
+</html>
